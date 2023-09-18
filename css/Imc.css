@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
+    color: aliceblue;
+}
+h1{
+    color: gold;
+    margin-top: 5%;
+    text-align: center;
+}
+h2{
+    color: gold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.calculadora{
+    color: aliceblue;
+    margin: auto;
+    width: 30%;
+}
+.calculadora .sexo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.calculadora .entrada{
+    text-align: center;
+}
+.calculadora .entrada input{
+    background-color: black;
+    border-color: black;
+    color: aliceblue;
+}
+.calculadora .saida{
+    text-align: center;
+}
+.calculadora .buttons{
+    text-align: center;
+}
+.calculadora .buttons .calcular input{
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom:5%;
+    background-color: #36B1DF;
+    border-color: #36B1DF;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.calculadora .buttons .calcular input:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+.calculadora .buttons .reset input{
+    width: 80%;
+    background-color: #36B1DF;
+    border-color: #36B1DF;
+    color: rgb(0, 0, 0);
+}
+.calculadora .buttons .reset input:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Imc.css">
+    <title>Calcular Imc</title>
+</head>
+<body>
+    <h1>CALCULADORA  DE IMC</h1>
+    <form action="#">
+        <div class="calculadora">
+            <h2>Sexo:</h2>
+            <div class="sexo">
+            <div class="masculino">
+            <input type="radio" id="masculino" name="sexo" value="Masculino">
+            <label for="masculino">Masculino</label>    
+            </div>
+            <div class="feminino">
+            <input type="radio" id="feminino" name="sexo" value="Feminino">
+            <label for="feminino">Feminino</label>    
+            </div>
+            </div>
+            
+            <div class="entrada">
+            <h2>Digite a altura:</h2>
+            <input type="number" id="altura" name="altura" autofocus required>
+            <label for="altura">Cm</label>
+          
+            <h2>Digite o peso:</h2>
+            <input class="peso" type="number" id="peso" name="peso" required>
+            <label for="peso">Kg</label>
+</div>
+    <div class="saida">
+            <!-- <p>Sua Altura:</p>
+            <p id="alt"></p>
+            <p>Seu Peso:</p>
+            <p id="pes"></p> -->
+            <h2>Resultado:</h2>
+            <p id="resp"></p>
+            <h2>Situação:</h2>
+            <p id="sit"></p>
+        </div>
+        <div class="buttons">
+        <div class="calcular">
+            <input type="button" value="Calcular" onclick="calculo_Imc()">
+        </div>
+        <div class="reset">
+             <input type="reset" value="Limpar" onclick="resetar()">
+        </div>
+       
+        </div>
+        </div>
+</body>
+<script src="js/imc.js"></script>
+</html>
